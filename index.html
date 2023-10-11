@@ -532,7 +532,7 @@
 
                         <svg class="customers-icons">
 
-                            <use href="./images/icons.svg#c_one">
+                            <use href="./images/icons.svg#c_one" />
 
                         </svg>
 
@@ -542,7 +542,7 @@
 
                         <svg class="customers-icons">
 
-                            <use href="./images/icons.svg#c_two">
+                            <use href="./images/icons.svg#c_two" />
 
                         </svg>
 
@@ -552,7 +552,7 @@
 
                         <svg class="customers-icons">
 
-                            <use href="./images/icons.svg#c_three">
+                            <use href="./images/icons.svg#c_three" />
 
                         </svg>
 
@@ -562,7 +562,7 @@
 
                         <svg class="customers-icons">
 
-                            <use href="./images/icons.svg#c_four">
+                            <use href="./images/icons.svg#c_four" />
 
                         </svg>
 
@@ -572,7 +572,7 @@
 
                         <svg class="customers-icons">
 
-                            <use href="./images/icons.svg#c_five">
+                            <use href="./images/icons.svg#c_five" />
 
                         </svg>
 
@@ -582,7 +582,7 @@
 
                         <svg class="customers-icons">
 
-                            <use href="./images/icons.svg#c_six">
+                            <use href="./images/icons.svg#c_six" />
 
                         </svg>
 
@@ -595,6 +595,101 @@
         </section>
 
     </main>
+
+    <div class="modal-backdrop is-hidden" data-modal>
+
+        <div class="modal-popup">
+
+            <button class="close-popup" type="button" data-modal-close>
+
+                <svg class="close-popup-icon">
+
+                    <use href="./images/icons.svg#x_icon" />
+
+                </svg>
+
+            </button>
+
+            <p class="popup-title">Leave your contacts and we will call you back</p>
+
+            <form name="popup-form">
+
+                <label class="popup-form-section">
+
+                    <span class="section-label">Name</span>
+
+                    <input class="section-field" type="text" name="full-name" placeholder="Full Name" required />
+
+                    <svg class="popup-form-icons">
+
+                        <use href="./images/icons.svg#person" />
+
+                    </svg>
+
+                </label>
+
+                <label class="popup-form-section">
+
+                    <span class="section-label">Phone</span>
+
+                    <input class="section-field" type="tel" name="full-number" placeholder="###-###-####" required />
+
+                    <svg class="popup-form-icons">
+
+                        <use href="./images/icons.svg#telephone" />
+
+                    </svg>
+
+                </label>
+
+                <label class="popup-form-section">
+
+                    <span class="section-label">Email</span>
+
+                    <input class="section-field" type="email" name="full-email" placeholder="user@email.com" required />
+
+                    <svg class="popup-form-icons">
+
+                        <use href="./images/icons.svg#envelope" />
+
+                    </svg>
+
+                </label>
+
+                <label class="popup-form-section">
+
+                    <span class="section-label">Comments</span>
+
+                    <textarea class="textarea-field" name="full-comments" placeholder="Text input" rows="8" required>
+                    </textarea>
+
+                </label>
+
+                <label class="popup-agreement-section">
+
+                    <input class="agreement-box hidden-box" type="checkbox" name="full-terms" checked required />
+
+                    <svg class="agreement-icon">
+
+                        <use href="./images/icons.svg#check-icon" />
+
+                    </svg>
+
+                    <span class="accept-terms">I accept the terms and conditions of the
+
+                        <a class="privacy-policy" href="">Privacy Policy</a>
+
+                    </span>
+
+                </label>
+
+                <button class="send-form" type="submit">Send</button>
+
+            </form>
+
+        </div>
+
+    </div>
 
     <footer class="footer-section">
 
@@ -724,135 +819,9 @@
 
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
-
-        <div class="modal">
-
-            <div class="modal-close-button">
-
-                <button type="modal-button" class="modal-close" data-modal-close>
-
-                    <svg class="modal-close-icon">
-                        <use href="./images/icons.svg#close_icon_button">
-                    </svg>
-
-                </button>
-
-            </div>
-
-            <div class="modal-form-section">
-
-                <h2 class="modal-intro"> Leave your contacts and
-                    we will call you back
-                </h2>
-
-                <form class="modal-form">
-
-                    <label class="modal-form-fields">
-
-                        <span class="modal-form-field-labels">Name</span>
-
-                        <input class="modal-form-input-fields" placeholder="Full Name" type="text" name="full_name"
-                            required>
-
-
-                        <div class="modal-form-icon-placement">
-
-                            <svg class="modal-form-icon">
-                                <use href="./images/icons.svg#name_icon">
-                            </svg>
-
-                        </div>
-
-                    </label>
-
-                    <label class="modal-form-fields">
-
-                        <span class="modal-form-field-labels">Phone</span>
-
-                        <input class="modal-form-input-fields" placeholder="(###)###-####" type="tel" name="tel_number"
-                            required>
-
-                        <div class="modal-form-icon-placement">
-
-                            <svg class="modal-form-icon">
-                                <use href="./images/icons.svg#telephone_icon">
-                            </svg>
-
-                        </div>
-
-                    </label>
-
-                    <label class="modal-form-fields">
-
-                        <span class="modal-form-field-labels">Email</span>
-
-                        <input class="modal-form-input-fields" placeholder="example@your.email" type="email"
-                            name="email_address" required>
-
-                        <div class="modal-form-icon-placement">
-
-                            <svg class="modal-form-icon">
-                                <use href="./images/icons.svg#email_icon">
-                            </svg>
-
-                        </div>
-
-                    </label>
-
-                    <label class="modal-form-fields">
-
-                        <span class="modal-form-field-labels">Comment</span>
-
-                        <textarea class="modal-form-input-fields" placeholder="Text input" type="text"
-                            name="comment_section" rows="8" required>
-                            </textarea>
-
-                    </label>
-
-                    <label class="agreement">
-
-                        <input class="agreement-box" type="checkbox" checked="checked" name="agreement_section"
-                            required>
-
-                        <span class="ticked-checkbox">
-
-                            <svg class="checkbox-icon">
-                                <use href="./images/icons.svg#ticked_checkbox">
-                            </svg>
-
-                        </span>
-
-                        <span class="privacy-policy-section">
-
-                            I accept the terms and conditions of the
-
-                            <a class="privacy-policy" href="">Privacy Policy</a>
-
-                        </span>
-
-                    </label>
-
-                    <div class="send-button-area">
-
-                        <label class="submit-form">
-
-                            <button class="send-button" type="submit">
-                                Send
-                            </button>
-
-                        </label>
-
-                    </div>
-
-                </form>
-            </div>
-
-        </div>
-
-    </div>
 
     <script src="modal.js"></script>
+    <script src="mobile-menu.js"></script>
     <script src="test.phone-number.js"></script>
 
 </body>
