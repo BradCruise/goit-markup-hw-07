@@ -286,6 +286,13 @@ img {
 
 }
 
+.burger-sm-icons {
+
+        width: 24px;
+        height: 24px;
+
+}
+
 .menu-toggle {
 
         color: var(--navy-blue);
@@ -350,7 +357,107 @@ img {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
           color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-          
+}
+
+.burger-nav-list {
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+}
+
+.burger-nav-list-item {
+
+        color: var(--navy-blue);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.burger-nav-list-item:hover,
+.burger-nav-list-item:focus,
+.burger-address-list-item:hover,
+.burger-address-list-item:focus {
+
+        color: var(--ocean);
+
+}
+
+.burger-address-area {
+
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+
+}
+
+.burger-address {
+
+        color: var(--slate, #434455);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+
+}
+
+.burger-address-list {
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+}
+
+.burger-address-list-item {
+
+        color: var(--navy-blue);
+        font-weight: 500;
+        line-height: 1.20;
+        letter-spacing: 0.72px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.bold {
+
+        color: var(--iris);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+
+}
+
+.burger-icons-list-item-link {
+
+        width: 24px;
+        height: 24px;
+
+}
+
+.burger-icons-list {
+
+        display: flex;
+        justify-content: space-between;
+
+}
+
+.burger-icons-list-item {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--iris);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
