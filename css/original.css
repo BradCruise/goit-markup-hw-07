@@ -347,7 +347,7 @@ img {
 
 .newsletter button:hover {
 
-    background: var(--ocean, #404BBF);
+    background: var(--ocean);
 
 }
 
